@@ -9,7 +9,7 @@
     who: Sreeprakash
     title: Sree
     desc: Test Description via ansible playbook
-  remote_user: vagrant
+  remote_user: root
   tasks:
     - name: install apache2
       apt: name=apache2 update_cache=yes state=latest
