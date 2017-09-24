@@ -3,7 +3,7 @@
 # mv ansible/tmp/customweb-playbook.yml ansible/
 # docker run --rm -v $PWD/ansible:/etc/ansible schogini/docker-ansible-ws-ubuntu ansible-playbook /etc/ansible/customweb_playbook.yml
 ---
-- hosts: vagranthosts
+- hosts: web
   become: true
   vars:
     who: Sreeprakash
